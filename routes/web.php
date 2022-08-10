@@ -39,3 +39,7 @@ Route::get('/simpansuara/{id}','VotingController@simpansuara')->name('simpansuar
 Route::get('/logoutvoting','VotingController@logoutvoting')->name('logoutvoting');
 
 Auth::routes();
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
