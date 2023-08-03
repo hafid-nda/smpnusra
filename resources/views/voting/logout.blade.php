@@ -1,5 +1,5 @@
 @extends('voting.master')
-@section('judul','E-voting SMPN 39 Bandung')
+@section('judul','E-voting SMP Nusantara Raya')
 @section('konten')
     <div class="mycontainer" style="overflow-x:hidden">
     <div class="row">
@@ -16,7 +16,7 @@
                       </div>
                   </div>
                   <div class="row">
-                      <div class="col"><a href="{{ route('votinglogin') }}" class="btn btn-primary mb-1" style="width:100%">Halaman Utama</a></div>
+                      <div class="col"><a href="{{ route('votinglogin') }}" class="btn btn-success mb-1" style="width:100%">Halaman Utama</a></div>
                   </div>
          </div>
          </div>

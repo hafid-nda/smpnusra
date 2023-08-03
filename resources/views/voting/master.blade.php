@@ -10,11 +10,10 @@
 </head>
 <body>
     <!-- Nav -->
-   <nav>
-       <h1>Elektonik Voting</h1>
-       <h1>SMPN 39 Bandung</h1>
-       <hr>
-   </nav>
+   <!-- <nav>
+       <h1>Elektronik Voting SMP Nusantara Raya</h1>
+       <hr> 
+   </nav> -->
    <!-- End Nav -->
 @yield('konten')
     <footer>

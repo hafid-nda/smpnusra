@@ -77,7 +77,7 @@ Highcharts.chart('chartHasil', {
         type: 'column'
     },
     title: {
-        text: 'Perolehan Suara.'
+        text: 'Perolehan Suara:   '
     },
     xAxis: {
         type: 'category'

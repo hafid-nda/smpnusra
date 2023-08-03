@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>E-Voting Pilketos</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -66,10 +66,10 @@
     <body>
 
 
-            <div class="content">
+            <!-- <div class="content">
                 <div class="title m-b-md">
-                    Sistem Elektonik Voting SMPN 39 Bandung
-                </div>
+                    <!-- Sistem Elektonik Voting SMP Nusra -->
+                <!-- </div> -->
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>

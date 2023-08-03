@@ -1,10 +1,14 @@
+<img src="img/smpnusra.png" class="img-fluid" alt="Deskripsi Gambar Anda">
+<hr>
+
 @extends('voting.master')
-@section('judul','E-voting SMPN 39 Bandung')
+@section('judul','E-voting SMP Nusantara Raya')
 @section('konten')
+
     <div class="mycontainer" style="overflow-x:hidden">
     <div class="row">
         <div class="col-md-12 text-center mb-4">
-            <h2 style="color:rgb(146, 142, 142);">E-Voting | Daftar Kandidat</h2>
+            <h2 style="color:rgb(146, 142, 142);">E-Voting SMP Nusra | Daftar Kandidat</h2>
         </div>
     </div>
     <div class="row">
@@ -15,7 +19,7 @@
                  <div class="card-body text-center">
                   <h5 class="card-title">{{ $x->nama}}</h5>
                   <div class="row">
-                      <div class="col"><a href="{{ route('simpansuara',$x->id) }}" class="btn btn-primary mb-1" style="width:100%" onclick="return confirm('Yakin memilih {{ $x->nama}} ?');">Pilih</a></div>
+                      <div class="col"><a href="{{ route('simpansuara',$x->id) }}" class="btn btn-success mb-1" style="width:100%" onclick="return confirm('Yakin memilih {{ $x->nama}}?');">Pilih</a></div>
                   </div>
                   <div class="row">
                       <div class="col"><a href="" class="btn btn-secondary" style="width:100%"  data-toggle="modal" data-target="#modalVisiMisi{{$x->id}}">Lihat Visi Misi</a></div>

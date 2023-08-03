@@ -12,7 +12,8 @@
 <body>
      <!-- Nav -->
    <nav>
-       <img src="{{ asset('img/Smpn-39-Bandung.png' )}}" width="30%"  alt="Foto">
+       <img src="{{ asset('img/smpnusra.png' )}}" width="50%"  alt="Foto">
+       <hr>
 
    </nav>
    <!-- End Nav -->
@@ -22,9 +23,9 @@
                   <div class="box">
                   <div class="row">
                       <div class="col">
-                      <h2 style="color:#566374">Elektonik Voting SMPN 39 Bandung</h2>
+                      <!-- <h2 style="color:#566374">Elektonik Voting SMP Nusra</h2> -->
                       <hr>
-                      <h2 style="color:#566374">Silahkan Masukan Token Untuk Memulai Melakuakan Voting</h2>
+                      <h2 style="color:#00000">Silahkan Masukan Token Untuk Memulai Melakukan Voting</h2>
                       <hr>
                       </div>
                   </div>
@@ -45,7 +46,7 @@
                       <form action="{{ route('cektoken') }}" method="post">
                             {{ csrf_field() }}
                             <input type="text" name="usertoken" class="form-control" style="width:90%;margin:0 auto;" autofocus>
-                            <button type="submit" class="btn btn-primary mt-2 mb-5" style="width:90%;">Masuk</button>
+                            <button type="submit" class="btn btn-success mt-2 mb-5" style="width:90%;">Masuk</button>
                         </form>
 
                       </div>

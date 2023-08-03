@@ -49,10 +49,10 @@ nav h1{
     border:solid 3px;
     text-transform: uppercase;
     text-decoration: none;
-    color:#168fb4;
+    color:#008000;
 }
 .mybtn:hover{
-    color:#007bff;
+    color:#008000;
     background-color:#fff;
     border-color:#fff;
     transition: 0.4s;
