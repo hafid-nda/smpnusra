@@ -82,5 +82,8 @@ class VotingController extends Controller
             echo '<br>';
         } 
     }
-    
-}
+    public function mulaivote()
+    {
+        return view('voting.mulaivoting');
+    }  
+} 
